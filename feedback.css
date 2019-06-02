@@ -1,0 +1,37 @@
+.feedback {
+   padding-top: 55px;
+   padding-bottom: 66px;
+   background-color: #f4f4f4;
+}
+.feedback-title {
+   text-transform: uppercase;
+   font-weight: 700; 
+   line-height: 18px;
+   color: #313131;
+   text-align: center;
+   font-size: 27px;
+}
+.feedback-slider_item_ {
+   margin: 0 auto;
+}
+.feedback-slider_item {
+   padding: 12px 12px;
+}
+@media (max-width: 576px) {
+   .feedback-title {
+      margin: 0;
+      line-height: 24px;
+      font-size: 22px;
+   }
+   .feedback {
+      padding-top: 36px;
+      padding-bottom: 31px;
+   }
+   .feedback-slider_item {
+      margin: 0;
+      padding-top: 15px;
+   }
+   .slider-arrow_feedback {
+      top: 50%;
+   }
+}

@@ -1,0 +1,130 @@
+@media (min-width: 320px) and (max-width: 576px) {
+   .production {
+      padding: 0;
+   }
+   .production-text_title {
+      display: inline-block;
+      width: 100%;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+      text-align: center;
+   }
+   .production-text_subtitle {
+      display: inline-block;
+      text-align: center;
+      margin-top: 17px;
+      margin-bottom: 22px;
+      width: 100%;
+      padding: 0;
+   }
+   .production-slider_bottom {
+      display: none;
+   }
+   .production-text {
+      margin: 0 auto;
+      text-align: center;
+   }
+   .slider-arrow {
+      height: 78px;
+      top: 25%;
+   }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+   .production-text {
+      margin: 0 auto;
+      text-align: center;
+   }
+    .production {
+       padding: 0;
+       padding-bottom: 56px;
+    }
+
+    .production-text_title {
+       display: inline-block;
+       width: 100%;
+       padding-top: 17px;
+       padding-bottom: 17px;
+       padding-left: 0;
+       padding-right: 0;
+       margin: 0;
+       font-size: 20px;
+       font-weight: 700;
+       line-height: 18px;
+       text-transform: uppercase;
+       text-align: center;
+    }
+
+    .production-text_subtitle {
+       display: inline-block;
+       text-align: center;
+       margin-top: 17px;
+       margin-bottom: 22px;
+       width: 100%;
+    }
+     .production-slider_bottom {
+        display: none;
+   }
+   .production-slider_top {
+      padding-top: 30px;
+   }
+    .slider-arrow {
+       height: 78px;
+       top: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+   .production-text {
+      margin: 0 auto;
+      text-align: center;
+   }
+   .production {
+      padding: 0;
+      padding-bottom: 56px;
+   }
+
+   .production-text_title {
+      display: block;
+      width: 100%;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+      text-align: center;
+   }
+
+   .production-text_subtitle {
+      display: inline-block;
+      text-align: center;
+      margin-top: 17px;
+      margin-bottom: 22px;
+      width: 100%;
+      /* padding: 0; */
+   }
+
+   .production-slider_bottom {
+      display: none;
+   }
+
+   .slider-arrow {
+      height: 78px;
+      top: 33%;
+   }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+   .slider-arrow:hover{
+      cursor: pointer;
+   }
+   
+}

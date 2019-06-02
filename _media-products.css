@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+   .wave-line {
+      display: none;
+   }
+   .products-button {
+      padding: 13px 12px;
+   }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+   .products-title {
+      padding: 0;
+      margin-bottom: 17px;
+   }
+   .wave-line {
+      display: none;
+   }
+}

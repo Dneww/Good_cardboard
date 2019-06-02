@@ -1,0 +1,29 @@
+.features_title {
+   color: #f39003;
+   font-size: 36px;
+   font-weight: 900;
+   text-align: center;
+}
+.features_subtitle {
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+}
+.features_number {
+   font-size: 36px;
+   text-transform: uppercase;
+}
+.features {
+   padding-top: 49px;
+}
+@media screen and (max-width: 768px) {
+   .features {
+      padding: 0;
+   }
+   .features_subtitle {
+      margin-bottom: 12px;
+   }
+   .features_title {
+      margin-top: 12px;
+   }
+}
